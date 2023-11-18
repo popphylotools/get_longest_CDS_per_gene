@@ -21,4 +21,4 @@ LOC128854712  XM_054089019.1
 LOC128854712  XM_054089020.1
 ```
 
-output_file: Set of longest CDS per gene.
+output_file: Set of the resulted longest CDS per gene in fasta format.
