@@ -6,7 +6,9 @@ To run this script use the following command structure:
 python get_longest_CDS_per_gene.py --input_fasta input_CDS.fas --input_table table_geneID_transcriptID --output_file output.fas
 
 input_fasta: Fasta file with a set of CDSs. That file should be obtained by using gffread (Pertea and Pertea 2020). The header should look like:
->">rna-XM_054099293.1"
+```
+>rna-XM_054099293.1
+```
 
 input_table: A tab delimited file containing the following information:locusID (gene identificator) and transcriptID. This file must be sorted by the first column. It should look like:
 ```
