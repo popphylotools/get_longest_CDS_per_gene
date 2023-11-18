@@ -9,6 +9,7 @@ input_fasta: Fasta file with a set of CDSs. That file should be obtained by usin
 >">rna-XM_054099293.1"
 
 input_table: A tab delimited file containing the following information:locusID (gene identificator) and transcriptID. This file must be sorted by the first column. It should look like:
+| ------------- | ------------- |
 |LOC128854707 | XM_054089416.1|
 |LOC128854708 | XM_054089018.1|
 |LOC128854710 | XM_054089015.1|
